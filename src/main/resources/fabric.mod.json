@@ -1,0 +1,42 @@
+{
+	"schemaVersion": 1,
+	"id": "multichest",
+	"version": "${version}",
+
+	"name": "Multichest",
+	"description": "Simple ores for the Nether dimension",
+	"authors": [
+		"paulevs"
+	],
+	"contact": {
+		"homepage": "https://github.com/paulevsGitch/Multichest/releases",
+		"sources": "https://github.com/paulevsGitch/Multichest",
+		"issues": "https://github.com/paulevsGitch/Multichest/issues",
+		"discord": "https://discord.gg/qxcP8EjkUC"
+	},
+
+	"license": "MIT",
+	"icon": "assets/multichest/icon.png",
+
+	"environment": "client",
+	"entrypoints": {
+		"stationapi:event_bus": [
+			"paulevs.multichest.listener.CommonListener"
+		],
+		"stationapi:event_bus_client": [
+			"paulevs.multichest.listener.ClientListener"
+		],
+		"bhcreative:event_bus": [
+			"paulevs.multichest.listener.CreativeTabListener"
+		]
+	},
+
+	"depends": {
+		"minecraft": "1.0.0-beta.7.3",
+		"stationapi": ">=2.0.0-alpha.3"
+	},
+	
+	"mixins": [
+		"multichest.mixins.json"
+	]
+}
