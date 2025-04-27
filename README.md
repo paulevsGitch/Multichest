@@ -21,12 +21,12 @@
 <table style="width:100%" align="center">
 	<tbody>
 		<tr>
-			<td width="280px" style="text-align: center;"><img src="screenshots/1.png" alt="" style="width:100%;image-rendering: pixelated;"/>Can have any shape</td>
-			<td width="280px" style="text-align: center;"><img src="screenshots/2.png" alt="" style="width:100%;image-rendering: pixelated;"/>Chest GUI</td>
+			<td style="text-align: center; align-content: center;"><img src="screenshots/1.png" alt="" style="width:100%;image-rendering: pixelated;"/>Can have any shape</td>
+			<td style="text-align: center; align-content: center;"><img src="screenshots/2.png" alt="" style="width:100%;image-rendering: pixelated;"/>Chest GUI</td>
 		</tr>
 		<tr>
-			<td width="280px" style="text-align: center;"><img src="screenshots/3.png" alt="" style="width:100%;image-rendering: pixelated;"/>Item filter</td>
-			<td width="280px" style="text-align: center;"><img src="screenshots/4.png" alt="" style="width:100%;image-rendering: pixelated;"/>Connected Crafting Table</td>
+			<td style="text-align: center; align-content: center;"><img src="screenshots/3.png" alt="" style="width:100%;image-rendering: pixelated;"/>Item filter</td>
+			<td style="text-align: center; align-content: center;"><img src="screenshots/4.png" alt="" style="width:100%;image-rendering: pixelated;"/>Connected Crafting Table</td>
 		</tr>
 	</tbody>
 </table>
